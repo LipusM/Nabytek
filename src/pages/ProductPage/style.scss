@@ -1,0 +1,33 @@
+.chosenProduct{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    position: absolute;
+    top: 15%;
+    margin: auto;
+    width: 80%;
+    left: 0;
+    right: 0;
+
+    #loader{
+        margin: auto;
+    }
+
+    .productInfo{
+        display: flex;
+        flex-direction: column;
+
+        h2{
+            font-weight: inherit;
+        }
+
+        button{
+            border: none;
+            color: white;
+            background-color: #414141;
+
+            padding: 15px;
+        }
+    }
+}

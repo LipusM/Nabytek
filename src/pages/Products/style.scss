@@ -1,0 +1,21 @@
+#allProducts{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .product{
+ 
+        p{
+            color: black;
+        }
+    }
+}
+
+@media (max-width: 1100px){
+    #allProducts{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
