@@ -1,4 +1,4 @@
-## Nábytek XXXMuck
+## Nábytek XXXMuck (CZ)
 
 <details>
   <summary><b>Detail</b></summary>
@@ -28,7 +28,7 @@
 
 </details>
 
-## Furniture XXXMuck
+## Furniture XXXMuck (EN)
 
 <details>
   <summary><b>Detail</b></summary>
