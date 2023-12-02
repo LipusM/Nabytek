@@ -3,9 +3,7 @@
 <details>
   <summary><b>Detail</b></summary>
 
-  **DŮLEŽITÉ: Nejedná se o žádnou spolupráci ani nic podobného!**
-
-  Jedná se projekt sloužící k zopakování znalostí z kurzu React1 od Czechitas.
+  Jedná se projekt na začátku kurzu React2. Slouží k zopakování znalostí z kurzu React1 od Czechitas.
   Je postaven na **Vite** balíčku.
   
   Pro spuštění projektu stačí v terminálu zadat příkaz:
