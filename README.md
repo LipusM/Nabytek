@@ -3,8 +3,8 @@
 <details>
   <summary><b>Detail</b></summary>
 
-  Jedná se projekt na začátku kurzu React2. Slouží k zopakování znalostí z kurzu React1 od Czechitas.
-  Je postaven na **Vite** balíčku.
+  **Jedná se projekt na začátku kurzu React2. Slouží k zopakování znalostí z kurzu React1 od Czechitas.**
+  **Je postaven na Vite balíčku.**
   
   Pro spuštění projektu stačí v terminálu zadat příkaz:
   **npm run dev**
