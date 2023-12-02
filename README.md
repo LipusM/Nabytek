@@ -50,8 +50,8 @@
   4. Create the individual components and build the resulting page from them. Retrieve the data for each product from the API.
   5. Use the **npm install react-router-dom** command to install React Router.
   6. Add routing to your project. The **HomePage** component will have the path **/**.
-  7. Create an empty **ProductPage** component and code it under the **/product** path.
-  8. Complete the **ProductPage** component according to [design provided](https://kodim.cz/cms/assets/vyvoj-webu/react-2/lekce/opakovani/projektik/xxxmuck/productpage.png).
+  7. Create an empty **ProductPage** component and have it under the **/product** path.
+  8. Complete the **ProductPage** component according to the [provided design](https://kodim.cz/cms/assets/vyvoj-webu/react-2/lekce/opakovani/projektik/xxxmuck/productpage.png).
   9. When you click on a product on the main page, the **ProductPage** will be displayed without the product yet.
   10. Display the selected product on the **ProductPage**. To do this, you need to pass the **id** of the product in the URL of the page and use the **useParams** hook. You can find individual products under their **id** at [this endpoint](https://apps.kodim.cz/react-2/xxxmuck/products/2c6VoCaD). The ordering button will not work yet.
    
