@@ -33,14 +33,28 @@
 <details>
   <summary><b>Detail</b></summary>
 
-  **IMPORTANT: This is not a collaboration or anything like that!**
+   **This is project was at the beginning of the React2 course. It is used to review the knowledge from the React1 course created by Czechitas.**
+   **For the project Vite package is used.**
 
-  This is a private website project, built on the Webpack package for package management and project launching. 
-  
-  To start the project, just type the following command in the terminal:
-  **npm run start**
+   To start the project, just enter the following command in the terminal:
+   **npm run dev**
 
-  This will then open a new panel in the browser where the page will be displayed.
+   The address is then displayed in the terminal. To view it in the browser, you must hold **ctrl/cmd** while clicking on it.
+
+   Assignment:
+   Make a simple e-shop in React for the new furniture chain XXXMuck. The website will consist of two pages: products offer and product detail.
+
+  1. Use **npm init kodim-app@latest** xxxmuck to create the basic structure of the web application.
+  2. Review the [main page design](https://kodim.cz/cms/assets/vyvoj-webu/react-2/lekce/opakovani/projektik/xxxmuck/homepage.png) of the store. You don't have to follow it exactly, just take it as inspiration. Before you start coding, break down the structure of the page into clearly named components. Let the home page be contained entirely in the **HomePage** component.
+  3. Study the output of the following [API endpoint](https://apps.kodim.cz/react-2/xxxmuck/products), which returns a list of products in JSON format.
+  4. Create the individual components and build the resulting page from them. Retrieve the data for each product from the API.
+  5. Use the **npm install react-router-dom** command to install React Router.
+  6. Add routing to your project. The **HomePage** component will have the path **/**.
+  7. Create an empty **ProductPage** component and code it under the **/product** path.
+  8. Complete the **ProductPage** component according to [design provided](https://kodim.cz/cms/assets/vyvoj-webu/react-2/lekce/opakovani/projektik/xxxmuck/productpage.png).
+  9. When you click on a product on the main page, the **ProductPage** will be displayed without the product yet.
+  10. Display the selected product on the **ProductPage**. To do this, you need to pass the **id** of the product in the URL of the page and use the **useParams** hook. You can find individual products under their **id** at [this endpoint](https://apps.kodim.cz/react-2/xxxmuck/products/2c6VoCaD). The ordering button will not work yet.
+   
 
 </details>
 
