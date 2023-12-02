@@ -16,16 +16,16 @@
   Originální zadání projektu:
   Vyrobte v Reactu jednoduchý e-shop pro nový nábytkový řetězec XXXMuck. Web bude sestávat ze dvou stránek: nabídka produktů a detail produktu.
 
-    Pomocí npm init kodim-app@latest xxxmuck vytvořte základ webové aplikace.
-    Prohlédněte si design hlavní stránky obchodu. Nemusíte jej přesně dodržet, stačí jej brát jako inspiraci. Než začnete programovat, rozvrhněte si strukturu stránky do srozumitelně pojmenovaných komponent. Hlavní stránka nechť je celá obsažena v komponentě HomePage.
-    Prostudujte si výstup následujicícho API endpointu, který vrací seznam produktů ve formátu JSON.
-    Vytvořte jednotlivé komponenty a sestavte z nich výslednou stránku. Data pro jednotlivé produkty načtěte z API.
-    Pomocí příkazu npm install react-router-dom nainstalujte React Router.
-    Přidejte do vašeho projektu routování. Komponenta HomePage bude mít cestu /.
-    Vytvořte zatím prázdnou komponentu ProductPage u zapojte ji pod cestu /product.
-    Dotvořte komponentu ProductPage dle dodaného designu.
-    Zařiďte, že po kliknutí na produkt na hlavní stránce se zobrazí stránka zatím prázdná ProductPage bez produktu.
-    Na ProductPage zobrazte vybraný produkt. K tomu je potřeba si předat id produktu v URL stránky a použít hook useParams. Jednotlivé produkty pod jejich id najdete na tomto endpointu. Tlačítko pro obejdnání zatím nebude funkční.
+  1. Pomocí npm init kodim-app@latest xxxmuck vytvořte základ webové aplikace.
+  2. Prohlédněte si [design hlavní stránky](https://kodim.cz/cms/assets/vyvoj-webu/react-2/lekce/opakovani/projektik/xxxmuck/homepage.png) obchodu. Nemusíte jej přesně dodržet, stačí jej brát jako inspiraci. Než začnete programovat, rozvrhněte si strukturu stránky do srozumitelně pojmenovaných komponent. Hlavní stránka nechť je celá obsažena v komponentě HomePage.
+  3. Prostudujte si výstup následujicícho API endpointu, který vrací seznam produktů ve formátu JSON.
+  4. Vytvořte jednotlivé komponenty a sestavte z nich výslednou stránku. Data pro jednotlivé produkty načtěte z API.
+  5. Pomocí příkazu npm install react-router-dom nainstalujte React Router.
+  6. Přidejte do vašeho projektu routování. Komponenta HomePage bude mít cestu /.
+  7. Vytvořte zatím prázdnou komponentu ProductPage u zapojte ji pod cestu /product.
+  8. Dotvořte komponentu ProductPage dle dodaného designu.
+  9. Zařiďte, že po kliknutí na produkt na hlavní stránce se zobrazí stránka zatím prázdná ProductPage bez produktu.
+  10. Na ProductPage zobrazte vybraný produkt. K tomu je potřeba si předat id produktu v URL stránky a použít hook useParams. Jednotlivé produkty pod jejich id najdete na tomto endpointu. Tlačítko pro obejdnání zatím nebude funkční.
 
 
 </details>
